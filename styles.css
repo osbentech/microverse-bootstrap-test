@@ -1,8 +1,26 @@
-.has-bg-img {
-  background-repeat: no-repeat;
-  background-size: cover;
+ul {
+  list-style-type: none;
 }
-.intro-head{
-  margin-top: 500px;
- 
+
+body {
+  background-color: #F4F5F7;
+  font-family: 'Poppins', sans-serif !important;
+}
+
+.headline {
+  height: 100vh;
+  background-color: #fff;
+  background-image: url(./img/bg/Header1-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.headline-intro {
+  padding-top: 10rem;
+}
+
+@media(max-width: 768px) {
+  .headline {
+    background-image: url(./img/bg/header-shapes-mobile.png);
+  }
 }
